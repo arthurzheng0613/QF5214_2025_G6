@@ -1,0 +1,91 @@
+variable,variable_meaning,AI_Judged_Impact,AI_Assigned_Weight
+GWETTOP,The amount of water and water vapor present in the soil. Top indicates the upper 5 cm of soil. Values range from 0 for completely dry conditions to 1 for completely saturated soil.,Positive,0.02
+T10M_MIN,The minimum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.,Negative,0.03
+V10M,The estimate of the northward wind average speed for winds blowing 10 meters above the surface of the earth.,Negative,0.02
+TS_MAX,The maximum hourly earth skin temperature in the period of interest.,Negative,0.03
+V50M,The estimate of the northward wind average speed for winds blowing 50 meters above the surface of the earth.,Negative,0.02
+V2M,The estimate of the northward wind average speed for winds blowing 2 meters above the surface of the earth.,Negative,0.02
+PBLTOP,The pressure at the top of the planet boundary layer.,Positive,0.01
+WS50M,The average of wind speed at 50 meters above the surface of the earth.,Negative,0.02
+WS50M_RANGE,The minimum and maximum hourly wind speed range at 50 meters above the surface of the earth.,Negative,0.02
+T10M,The air (dry bulb) temperature at 10 meters above the surface of the earth.,Negative,0.03
+U2M,The estimate of the eastward wind average speed for winds blowing 2 meters above the surface of the earth.,Negative,0.02
+WS2M_MIN,The minimum hourly wind speed at 2 meters above the surface of the earth in the period of interest.,Negative,0.02
+TO3,The total amount of ozone in a column extending vertically from the earth's surface to the top of the atmosphere.,Positive,0.02
+TROPT,The air (dry bulb) temperature at the tropopause pressure given by TROPPB.,Negative,0.03
+TS,The average temperature at the earth's surface.,Negative,0.03
+T2M,The average air (dry bulb) temperature at 2 meters above the surface of the earth.,Negative,0.03
+T2M_RANGE,The difference between the minimum and maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.,Negative,0.03
+QV2M,The ratio of the mass of water vapor to the total mass of air at 2 meters.,Positive,0.02
+WD2M,The average of the wind direction at 2 meters above the surface of the earth.,Negative,0.02
+QV10M,The ratio of the mass of water vapor to the total mass of air at 10 meters.,Positive,0.02
+T2MDEW,The dew/frost point temperature at 2 meters above the surface of the earth.,Negative,0.03
+WS10M,The average of wind speed at 10 meters above the surface of the earth.,Negative,0.02
+RHOA,The air density at surface of the earth.,Positive,0.02
+TS_RANGE,The minimum and maximum hourly earth skin temperature range in the period of interest.,Negative,0.03
+U10M,The estimate of the eastward wind average speed for winds blowing 10 meters above the surface of the earth.,Negative,0.02
+WD50M,The average of the wind direction at 50 meters above the surface of the earth.,Negative,0.02
+TROPPB,The tropopause pressure based on the blended estimate.,Positive,0.01
+WS2M_RANGE,The minimum and maximum hourly wind speed range at 2 meters above the surface of the earth.,Negative,0.02
+RH2M,"The ratio of vapor pressure to the saturation vapor pressure with respect to a plane surface of pure water, expressed in percent.",Positive,0.01
+T2MWET,The adiabatic saturation temperature which can be measured by a thermometer covered in a water-soaked cloth over which air is passed at 2 meters above the surface of the earth.,Negative,0.03
+U50M,The estimate of the eastward wind average speed for winds blowing 50 meters above the surface of the earth.,Negative,0.02
+WS10M_MAX,The maximum hourly wind speed at 10 meters above the surface of the earth in the period of interest.,Negative,0.02
+T10M_RANGE,The minimum and maximum hourly air (dry bulb) temperature range at 10 meters above the surface of the earth in the period of interest.,Negative,0.03
+TS_MIN,The minimum hourly earth skin temperature in the period of interest.,Negative,0.03
+WS2M_MAX,The maximum hourly wind speed at 2 meters above the surface of the earth in the period of interest.,Negative,0.02
+PW,"The total atmospheric water vapor contained in a vertical column of the atmosphere, sourced from CERES.",Positive,0.02
+TQV,"The total atmospheric water vapor contained in a vertical column of unit cross-sectional area extending from the surface to the top of the atmosphere, sourced from the GMAO.",Positive,0.02
+PSH,The average intensity of solar irradiance that reaches the surface.,Positive,0.04
+T10M_MAX,The maximum hourly air (dry bulb) temperature at 10 meters above the surface of the earth in the period of interest.,Negative,0.03
+T2M_MAX,The maximum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.,Negative,0.03
+TROPQ,The ratio of the mass of water vapor to the total mass of air at the tropopause pressure given by TROPPB.,Positive,0.01
+WS2M,The average of wind speed at 2 meters above the surface of the earth.,Negative,0.02
+WS50M_MIN,The minimum hourly wind speed at 50 meters above the surface of the earth in the period of interest.,Negative,0.02
+T2M_MIN,The minimum hourly air (dry bulb) temperature at 2 meters above the surface of the earth in the period of interest.,Negative,0.03
+WD10M,The average of the wind direction at 10 meters above the surface of the earth.,Negative,0.02
+SLP,The sea level pressure at the surface of the earth.,Positive,0.01
+TS_ADJ,The adjusted average temperature at the earth's surface. Adjusted refers to CERES source parameter.,Negative,0.03
+ALLSKY_SFC_PAR_DIFF,The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+CLRSKY_KT,A fraction representing clearness of the atmosphere; the clear sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.,Positive,0.04
+ORIGINAL_ALLSKY_SFC_SW_DIFF,The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+MIDDAY_INSOL,The total amount of solar irradiance (direct plus diffuse) incident on a horizontal plane at the earth's surface during the solar noon hour midday period.,Positive,0.04
+AOD_55,The optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.,Positive,0.02
+ALLSKY_SFC_SW_DWN,"The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the ""Global Horizontal Irradiance"" or GHI.",Positive,0.04
+CLRSKY_SFC_PAR_DIRH,The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.,Positive,0.04
+CLOUD_AMT_NIGHT,The average percent of cloud amount during nighttime.,Negative,0.01
+CLRSKY_SFC_SW_UP,The upward shortwave irradiance under clearsky conditions.,Positive,0.04
+CLRSKY_NKT,The average zenith angle-independent expression of the clear sky insolation clearness index.,Positive,0.02
+CLRSKY_SFC_LW_UP,The upward thermal infrared irradiance under clear sky conditions.,Positive,0.04
+ALLSKY_SFC_SW_UP,The upward shortwave irradiance under all sky conditions.,Positive,0.04
+CLRSKY_SFC_SW_DIFF,The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.,Positive,0.04
+ALLSKY_SFC_SW_DIFF,The diffuse (scattered from original direct path by molecules or particles) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+TOA_SW_DWN,The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the top of the atmosphere (extraterrestrial radiation).,Positive,0.04
+ALLSKY_SFC_SW_DIRH,The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+CLRSKY_SRF_ALB,The clear sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.,Positive,0.04
+ALLSKY_SRF_ALB,The all sky rate of reflectivity of the earth's surface; the ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth.,Positive,0.04
+CLOUD_AMT,The average percent of cloud amount during the temporal period.,Negative,0.01
+AOD_84,The optical thickness at 0.84 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.,Positive,0.02
+SRF_ALB_ADJ,The ratio of the solar energy reflected by the surface of the earth compared to the total solar energy incident reaching the surface of the earth. Adjusted refers to CERES source parameter.,Positive,0.04
+ALLSKY_SFC_PAR_DIRH,The Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+ALLSKY_SFC_SW_DNI,The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under all sky conditions.,Positive,0.04
+ALLSKY_SFC_PAR_TOT,The total (direct plus diffuse) Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+ALLSKY_SFC_UVA,The ultraviolet A (UVA 315nm-400nm) irradiance under all sky conditions.,Positive,0.04
+ALLSKY_SFC_LW_DWN,The downward thermal infrared irradiance under all sky conditions reaching a horizontal plane at the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from the Sky.,Positive,0.04
+ALLSKY_KT,A fraction representing clearness of the atmosphere; the all sky insolation that is transmitted through the atmosphere to strike the surface of the earth divided by the average of top of the atmosphere total solar irradiance incident.,Positive,0.04
+ORIGINAL_ALLSKY_SFC_SW_DIRH,The solar irradiance incident on a horizontal plane at the surface of the earth under all sky conditions.,Positive,0.04
+ALLSKY_SFC_LW_UP,The upward thermal infrared irradiance under all sky conditions.,Positive,0.04
+CLRSKY_SFC_PAR_TOT,The total Photosynthetically Active Radiation (PAR) incident on a horizontal plane at the surface of the earth under clear sky conditions.,Positive,0.04
+ALLSKY_SFC_UV_INDEX,The ultraviolet radiation exposure index.,Positive,0.04
+AIRMASS,Air Mass according to Perez et al. 1990.,Positive,0.02
+CLRSKY_SFC_SW_DIRH,The solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.,Positive,0.04
+CLRSKY_SFC_SW_DNI,The direct solar irradiance incident to a horizontal plane normal (perpendicular) to the direction of the sun's position under clear sky conditions.,Positive,0.04
+TOA_SW_DNI,The total solar irradiance incident (direct plus diffuse) on a horizontal plane where oriented to the sun's position at the top of the atmosphere (extraterrestrial radiation).,Positive,0.04
+CLOUD_OD,The vertical optical thickness between the top and bottom of a cloud.,Negative,0.01
+CLOUD_AMT_DAY,The average percent of cloud amount during daylight.,Negative,0.01
+CLRSKY_SFC_LW_DWN,The downward thermal infrared irradiance under clear sky conditions reaching a horizontal plane on the surface of the earth. Also known as Horizontal Infrared Radiation Intensity from Sky.,Positive,0.04
+ALLSKY_NKT,The average zenith angle-independent expression of the all sky insolation clearness index.,Positive,0.02
+CDD0,The daily accumulation of degrees above a 0-degree-Celsius threshold when the daily mean temperature is above the threshold.,Negative,0.03
+CLRSKY_SFC_PAR_DIFF,The diffuse (scattered from original direct path by molecules or particles) Photosynthetically Active Radiation (PAR) solar irradiance incident on a horizontal plane at the surface of the earth under clear sky conditions.,Positive,0.04
+CLRSKY_SFC_SW_DWN,"The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under clear sky conditions. An alternative term for the total solar irradiance is the ""Global Horizontal Irradiance"" or GHI.",Positive,0.04
+AOD_55_ADJ,The adjusted optical thickness at 0.55 um measured vertically; the component of the atmosphere to quantify the removal of radiant energy from an incident beam.,Positive,0.02
